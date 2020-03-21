@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-family: segoe UI;
+    font-weight: 100;
+}
+
+p.ghichu {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: segoe UI;
+    color: #898282;
+}
+
+.khoi2 i {
+    font-size: 60px;
+    margin: 40px 0px 20px 0px;
+}
+
+.khoi2 i:hover {
+    color: #03c8c8;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+nav {
+    background-color: #2a848b;
+    height: 96px;
+    transition: 0.4s;
+    color: #ffff;
+}
+
+p.end {
+    font-size: 16px;
+    font-family:  'GFS Didot', serif;
+    font-style: italic;
+    margin: 8px;
+}
+
+.icon i {
+    font-size: 19px;
+    padding: 10px;
+    color: black;
+}
+
+.icon i:hover {
+    color: #3e8fbe;
+    transition: 0.4s;
+}
+
+.footer.bg-light {
+    padding: 25px;
+}
+
+.khoi2.text-center {
+    padding: 160px 0;
+}
+
+.layer2 i {
+    font-size: 22px;
+    margin-top: 530px;
+}
+
+i.fas.fa-heart {
+    margin-right: 240px;
+}
+
+.layer2 {
+    background-color: #13131396;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    color: #fff;
+    transform: scale(0);
+    transition: 0.6s;
+}
+
+.layout:hover .layer2 {
+    transform:scale(1);
+    
+}
+
+.layout {
+    width: 400px;
+    height: 600px;
+    margin: 40px;
+    position: relative;
+    
+}
+
+.khoi1 {
+    padding: 160px 0;
+}
+
+h2.tieude {
+    font-size: 29px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+img.layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
+}
+
+p.mota {
+    font-size: 21px;
+    letter-spacing: 1.5px;
+    font-family: 'GFS Didot', serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+p.mota1 {
+    color: #898282;
+}
+
+p.tieude {
+    font-size: 50px;
+    letter-spacing: 7px;
+    font-weight: 900;
+}
+
+header {
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+    padding: 190px;
+    color: #fff;
+}
+
+p.menu {
+    margin: 0;
+    color: #fff;
+    padding: 9px;
+    font-size: 21px;
+}
+
+p.menu:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    color: black;
+}
+
+.col.d-flex {
+    justify-content: space-between;
+}
+
+p.logo {
+    margin: 0;
+    line-height: 56px;
+    font-size: 21px;
+}
+
+p.logo:hover {
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+body{
+    font-family:'Raleway', sans-serif;
+}
+.thunho{
+    height: 82px;
+}
+nav.thunho p {
+    font-size: 18px;
+}
+
+.menu.active {
+    background-color: black;
+    border-radius: 6px;
+
+}
+
+.menu.active:hover {
+    color:white;
+}
